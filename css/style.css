@@ -470,8 +470,18 @@ section {
 }
 
 
-/* Footer CSS */
 
+/* Footer CSS */
+.footer_wrapper {
+    background: url('../images/footer-bg/footer_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 15rem; /* Check if this is too large */
+    padding-bottom: 0rem;
+}
+
+/* 
 .footer_wrapper {
     background: url('../images/footer-bg/footer_bg.png');
     background-repeat: no-repeat;
@@ -479,8 +489,7 @@ section {
     background-position: top center;
     padding-top: 15rem;
     padding-bottom: 0rem;
-}
-
+} */
 .footer_wrapper h5 {
     color: var(--text-white);
     font-size: 2.5rem;
@@ -620,6 +629,15 @@ Contact Page CSS
     font-family: var(--secondary-font);
 }
 
+.contact .contact-form .contact-control{
+    padding:  1rem 1.5rem;
+    border-radius: 0rem;
+    border: 0.1rem solid var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
 
 /* ===========================
 Product Page CSS
